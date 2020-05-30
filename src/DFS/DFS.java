@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class DFS {
 
-   public void DFS(Vertex root){
+   public void normalDFS(Vertex root){
        Stack<Vertex> stack=new Stack<Vertex>();
        stack.add(root);
        while(!stack.isEmpty()){
