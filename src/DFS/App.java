@@ -14,7 +14,7 @@ public class App {
 
         DFS dfs=new DFS();
         System.out.println("Using Stack");
-        dfs.DFS(v1);
+        dfs.normalDFS(v1);
         System.out.println("Using recurrsioin");
        // dfs.recurssiveDFS(v1);
     }
